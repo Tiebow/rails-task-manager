@@ -3,7 +3,8 @@
 <div class="task-details">
   <div>
     <p><%= @task.details %></p>
-  </div><%= link_to 'text', path %>
   </div>
+  </div>
+  <%= link_to 'Edit my task', edit_task_path %><br>
   <%= link_to 'Back to the list', tasks_path %>
 </div>
